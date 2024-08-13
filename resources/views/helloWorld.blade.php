@@ -10,9 +10,9 @@
     <div>
         <nav>
             <ul>
-                <a href="{{ route('/home') }}"><li>HOME</li></a>
-                <a href="{{ route('/listar-pedidos') }}"><li>PEDIDOSt</li></a>
-                <a href="{{ route('/listar-produtos') }}"><li>PRODUTOS</li></a>
+                <a href="{{ url('/home') }}"><li>HOME</li></a>
+                <a href="{{ url('/listar-pedidos') }}"><li>PEDIDOS</li></a>
+                <a href="{{ url('/listar-produtos') }}"><li>PRODUTOS</li></a>
             </ul>
         </nav>
     </div>
