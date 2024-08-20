@@ -12,6 +12,7 @@
             <li><a href="{{url ('cadastrar')}}">Cadastrar</a></li>
             <li><a href="{{url ('meuPerfil')}}">Meu Perfil</a></li>
             <li><a href="{{url ('')}}">Sair</a></li>
+            <p>{{$nome}}</p>
         </ul>
     </nav>
 </body>
